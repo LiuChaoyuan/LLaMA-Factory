@@ -1,4 +1,23 @@
 {
+  
+  "hate_speech_sft": {
+    "file_name": "hate_speech_sft_train.jsonl", 
+    "columns": {
+      "prompt": "instruction", 
+      "query": "input",        
+      "response": "output",    
+      "history": null         
+    }
+  },
+  "hate_speech_sft_dev": { 
+    "file_name": "hate_speech_sft_dev.jsonl",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "history": null
+    }
+  },
   "identity": {
     "file_name": "identity.json"
   },
